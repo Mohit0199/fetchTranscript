@@ -18,7 +18,7 @@ import {
 // Ensure this matches your running backend URL.
 // If local: "http://localhost:8000/api/v1/fetch"
 // If deployed: "https://your-render-app-name.onrender.com/api/v1/fetch"
-const API_URL = "https://fetchtranscript.onrender.com/api/v1/fetch"; 
+const API_URL = "http://localhost:8000/api/v1/fetch"; 
 
 export default function App() {
   const [url, setUrl] = useState('');
